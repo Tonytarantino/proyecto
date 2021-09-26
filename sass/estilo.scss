@@ -1,0 +1,125 @@
+@import "variables";
+@import "navbar";
+@import "carrusel";
+
+body {
+    font-family: $miTipografia;
+}
+
+/* bloques unoy dos */
+div {
+    &.contenedorPrueba {
+        margin: 50px;
+        padding: 15px;
+        text-align: center;
+        div {
+            &.beneficios {
+                text-align: center;
+                h2 {
+                    &.bloque_subtitulo {
+                        color: $colorPrimario;
+                    }
+                }
+            }
+        }
+        div {
+            &.filaPrueba {
+                div {
+                    &.columnaPrueba {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            &.imgEjemplo {
+                                height: 200px;
+                                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* end bloques uno y dos */
+h2 {
+    &.subtitulo {
+        text-align: center;
+        margin: 50px;
+        color: $colorPrimario;
+    }
+}
+div {
+    &.bloqueTres {
+        background-color: $colorAcento;
+    }
+}
+/* card */
+ div {
+     &.cardContainer {
+         div {
+             &.col {
+                 div {
+                     &.card {
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        text-align: center;
+                        border:0;
+                     }
+                 }
+             }
+         }
+     }
+ }
+
+ div {
+     &.callAction {
+         margin-top: 70px;
+         text-align: center;
+         margin-bottom: 100px;
+
+         h2 {
+             &.callAction_titulo {
+                 color: $colorPrimario;
+                 font-size: 50px;
+                 margin-bottom: 50px;
+             }
+         
+         button {
+            &.miBoton {
+                background-color: black; 
+             }
+             &.btn-primary {
+                 background-color: black;
+             }
+            }
+        }
+             
+     }
+ }
+
+ /* end call */
+
+ /* footer */
+
+footer {
+    background-color: $colorPrimario;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    ul {
+        &.nav {
+            li {
+                &.nav-item{
+                    a {
+                        &.nav-link {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

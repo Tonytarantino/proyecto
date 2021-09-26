@@ -1,0 +1,20 @@
+footer {
+    background-color: $colorPrimario;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    ul {
+        &.nav {
+            li {
+                &.nav-item{
+                    a {
+                        &.nav-link {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
